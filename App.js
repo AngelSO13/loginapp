@@ -121,13 +121,13 @@ export default function App() {
         <Text style={styles.title}>Registro</Text>
         <TextInput
           style={styles.input}
-          placeholder="Correo electrónico"
+          placeholder="Correo electrónico:"
           value={email}
           onChangeText={setEmail}
         />
         <TextInput
           style={styles.input}
-          placeholder="Contraseña"
+          placeholder="Contraseña:"
           secureTextEntry
           value={password}
           onChangeText={setPassword}
